@@ -1,0 +1,3 @@
+INSERT INTO tickets (user_id, image_path, ocr_data, status, created_at) VALUES
+('user1', 'uploads/ticket1.png', '{"serie":"123456","ticketNumber":"654321","date":"2025-08-01T12:00:00Z","address":"Calle Falsa 123","store":"Supermercado Ficticio","items":[{"product":"Producto A","quantity":2,"price":50},{"product":"Producto B","quantity":1,"price":30}]}', 'approved', NOW()),
+('user2', 'uploads/ticket2.png', '{"serie":"789012","ticketNumber":"210987","date":"2025-08-02T15:30:00Z","address":"Avenida Siempre Viva 742","store":"Mercado Prueba","items":[{"product":"Producto C","quantity":3,"price":20}]}', 'pending', NOW());
