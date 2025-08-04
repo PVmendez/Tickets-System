@@ -6,7 +6,7 @@ Sistema de gestión de tickets con procesamiento OCR simulado para recibos y cá
 
 - **Frontend**: Next.js con React 18
 - **Backend**: Node.js con Express
-- **Base de Datos**: PostgreSQL 16 con migraciones automáticas
+- **Base de Datos**: PostgreSQL 16 
 
 ## 🚀 Cómo correr la app desde cero
 
@@ -14,7 +14,7 @@ Sistema de gestión de tickets con procesamiento OCR simulado para recibos y cá
 
 1. **Clona este repositorio:**
    ```bash
-   git clone <url-del-repo>
+   git clone https://github.com/PVmendez/Tickets-System.git
    cd Tickets-System
    ```
 
@@ -28,7 +28,6 @@ Sistema de gestión de tickets con procesamiento OCR simulado para recibos y cá
    
    Esto:
    - Descargará las imágenes necesarias
-   - Creará los contenedores con healthchecks
    - Ejecutará automáticamente las migraciones de la base de datos
    - Levantará backend, frontend y PostgreSQL
 
@@ -45,7 +44,7 @@ Sistema de gestión de tickets con procesamiento OCR simulado para recibos y cá
 
 2. **Clona y configura:**
    ```bash
-   git clone <url-del-repo>
+   git clone https://github.com/PVmendez/Tickets-System.git
    cd Tickets-System
    ```
 
