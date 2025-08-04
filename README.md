@@ -128,21 +128,8 @@ Algunas mejoras que podrían implementarse:
 - **Loading States**: Indicadores de carga y estados de error más informativos
 
 ### Backend y Funcionalidad
-- **OCR Real**: Implementación de OCR real usando **Tesseract.js** o APIs como **Google Vision**
 - **Autenticación**: Sistema completo de autenticación con JWT y roles de usuario
-- **Validación de Imágenes**: Verificación automática de la calidad y formato de las imágenes
-- **Cache**: Sistema de cache con **Redis** para mejorar el rendimiento
-- **Rate Limiting**: Limitación de peticiones para prevenir abuso
 
 ### DevOps y Calidad
 - **Testing**: Suite completa de tests unitarios y de integración con **Jest** y **Cypress**
 - **CI/CD**: Pipeline de integración continua con **GitHub Actions**
-- **Logging**: Sistema de logs estructurado con **Winston**
-- **Monitoring**: Métricas y monitoreo con **Prometheus** o **New Relic**
-- **Documentation**: Documentación automática de API con **Swagger/OpenAPI**
-
-### Seguridad
-- **Validación de Archivos**: Validación más estricta de tipos de archivo y tamaños
-- **Sanitización**: Limpieza de datos de entrada para prevenir inyecciones
-- **HTTPS**: Certificados SSL/TLS para comunicación segura
-- **Backup**: Sistema automático de respaldos de base de datos
